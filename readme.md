@@ -74,6 +74,13 @@ In this project, we investigated and understood the relation of member's age gro
 - In terms of genders, males prefer rides for shorter duration while females prefer rides for high duration
 - Seniors prefer renting bikes for long rides in summers and short rides during winters
 
+**Note:** After creating the slide deck with jupyter, to make use of a public, online version of `reveal.js`, to start up a server, and to immediately open a tab simultaneously in the web browser with the slide deck ready to navigate, use the following code on the command line, with `output_toggle.tpl` saved in the directory where the slide deck is present and command is being run:
+
+```
+jupyter nbconvert presentation.ipynb --to slides --template output-toggle.tpl
+--post serve
+```
+
 ## RESOURCES
 1. [Matplotlib Documentation](https://matplotlib.org/)
 
